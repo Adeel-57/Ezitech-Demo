@@ -1,0 +1,113 @@
+.footer-main{
+    width: 100%;
+    background-color: #042D89;
+}
+.back_image{
+    width: 100%;
+    position: relative;
+}
+.back_image img{
+    width: 100%;
+    max-height: 580px;
+}
+.back-image-overlay{
+    position: absolute;
+    inset: 0;
+    background-color: #042c89ce;
+}
+.image-overlay-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-heading{
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px;
+}
+.footer-main-image{
+    width: 100%;
+}
+.footer-main-image img{
+    max-width: 1400px;
+    width: 100%;
+}
+
+.footer-text-container{
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 80px 20px;
+    color: white;
+    font-size: 14px;
+}
+.footer-text-heading{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.courses-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.course-box-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.course-box-card img{
+    max-height: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-items{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+.contact-items i{
+    padding-top: 3px;
+}
+
+.copyrights{
+    max-width: 1250px;
+    padding: 40px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrights .copyrights-text{
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-text-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .footer-text-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-heading{
+        font-size: 2em;
+    }
+    .copyrights{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer-heading{
+        font-size: 1.5em;
+        line-height: 100%;
+    }
+}

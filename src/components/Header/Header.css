@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-box{
+    width: 100%;
+    background-color: #3275DB;
+}
+.header-box-content{
+    max-width: 1250px;
+    margin-inline: auto;
+    min-height: 38px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .header-box{
+        display: none;
+    }
+}

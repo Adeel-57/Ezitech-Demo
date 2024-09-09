@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.hero-main > div > img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.img-over{
+    position: absolute;
+    inset: 0;
+    background-color: #3276db4f;
+}
+.hero-content{
+    position: absolute;
+    inset: 0;
+}
+.hero-content > div{
+    max-width: 1250px;
+    margin-inline: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 60px;
+}
+.content-main-text{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+}
+.hero-content > div h4{
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.hero-content > div .input{
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    width: 20em;
+    border-radius: 5px;
+    background: white;
+    overflow: hidden;
+}
+.hero-content > div .input input{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0 0 0 10px;
+}
+.hero-content > div .input input::placeholder{
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.hero-content > div .input i{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a2a2a2;
+    cursor: pointer;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.hero-text i{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+.content-logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 30px;
+}
+.content-logos > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.content-logos .logo-1 img{
+    height: 42px;
+}
+.content-logos .logo-2 img{
+    height: 100%;
+}
+.content-logos .logo-3{
+    width: 196px;
+    position: relative;
+}
+.content-logos .logo-3 img{
+    height: 120px;
+    position: absolute;
+    top: -52px;
+}
